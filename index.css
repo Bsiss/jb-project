@@ -1,0 +1,109 @@
+ 
+
+body {
+    background-color: whitesmoke;
+    
+}
+
+header {
+    background-color: #333333;
+    width: 100px;
+    width: 100%; 
+    z-index: 69;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    position: fixed;
+  }
+
+  nav {
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 10px 0px;
+  }
+  
+  nav img {
+    display: block;
+    width: 180px;
+    margin: 0px auto;
+  }
+  
+  
+  nav span a {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title {
+      color: #333333;
+      text-align: center;
+      font-family: 'Raleway', sans-serif;
+      margin-top: 115px;
+  }
+
+  .toronto {
+    margin-left: 54px;
+  }
+
+  h2 {
+      color: #333333;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+  }
+
+  p {
+      font-family: 'Montserrat', sans-serif;
+  }
+  .whySection {
+    background-color: #307166;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+    display: block;
+  }
+
+  .colorSection {
+    z-index: 69;
+    color: white;
+    display: block;
+    width: 20px;
+    height: 70px;
+  }
+  .approachSection {
+    background-color: #358176;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  .researchSection {
+    background-color: #398D82;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+
+  .questionsSection {
+    background-color: #5FAFA7;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+
+  
+
