@@ -53,11 +53,11 @@ header {
       color: #333333;
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
+      text-transform: uppercase;
   }
   
   h3 {
     color: whitesmoke;
-    font-family: ;
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -105,6 +105,9 @@ header {
     height: 200px;
     padding: 0 10px;
     margin: 0 auto;
+  }
+  .approachCol h2 {
+    text-transform: none;
   }
   .researchSection {
     background-color: #398D82;
