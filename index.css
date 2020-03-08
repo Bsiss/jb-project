@@ -49,15 +49,23 @@ header {
     margin-left: 54px;
   }
 
-  h2 {
+  h2, h4 {
       color: #333333;
       font-family: 'Raleway', sans-serif;
       font-weight: bold;
   }
+  
+  h3 {
+    color: whitesmoke;
+    font-family: ;
+    font-family: 'Montserrat', sans-serif;
+  }
 
   p {
       font-family: 'Montserrat', sans-serif;
+      color: whitesmoke
   }
+
   .whySection {
     background-color: #307166;
     box-sizing: border-box;
@@ -104,6 +112,27 @@ header {
     position: relative;
     top: 50px;
   }
+
+  .question{
+    position: relative;
+    top: 50px;
+    text-align: center;
+  }
+  
+  .answer {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #b89c60;
+    padding: 30px 50px;
+    background-color: #307166;
+    color: whitesmoke
+  }
+
+  .answer:hover {
+    background-color: #398D82;
+  }
+
+
 
   
 
