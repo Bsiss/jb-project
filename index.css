@@ -10,7 +10,7 @@
 }
 body {
     background-color: whitesmoke;
-    
+    margin: 0px;
 }
 
 header {
@@ -83,7 +83,7 @@ header {
       color: whitesmoke;
   }
 
-  li {
+  .industry li {
     font-family: 'Montserrat', sans-serif;
       color: whitesmoke;
       width: 500px;
@@ -113,7 +113,7 @@ header {
     z-index: 69;
     color: white;
     display: block;
-    width: 20px;
+    width : 20px;
     height: 70px;
   }
   .approachSection {
