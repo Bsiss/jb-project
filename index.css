@@ -146,6 +146,14 @@ header {
     top: 50px;
   }
 
+  .link {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #b89c60;
+    padding: 30px 50px;
+    background-color: #307166;
+    color: whitesmoke;
+  }
   
   
 
