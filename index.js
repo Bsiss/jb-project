@@ -2,7 +2,7 @@ document.querySelector('.tothetop').addEventListener('click', event => {
     window.scrollTo({left:0, top:0, behavior:"smooth"})
 }) // Back to top button
 
-//Page Position Indicator
+//Page Scroll Position Indicator
 const scrollIndicatorElt = document.getElementById('scrollIndicator');
 const maxScrollableHeight = document.body.scrollHeight - window.innerHeight;
 window.addEventListener('scroll', moveScrollIndicator);

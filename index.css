@@ -12,10 +12,19 @@ body {
     background-color: whitesmoke;
     margin: 0px;
 }
+#header{
+    background-color: #333333;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    transition: 0.2s;
+    position: fixed;
+    font-size: 90px;
+
+}
 
 header {
     background-color: #333333;
-    width: 100px;
     width: 100%; 
     z-index: 69;
     font-family: 'Raleway', sans-serif;
