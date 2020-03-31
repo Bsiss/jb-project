@@ -12,16 +12,6 @@ body {
     background-color: whitesmoke;
     margin: 0px;
 }
-#header{
-    background-color: #333333;
-    width: 100%;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    transition: 0.2s;
-    position: fixed;
-    font-size: 90px;
-
-}
 
 header {
     background-color: #333333;
@@ -33,12 +23,15 @@ header {
   }
 
   nav {
+    background-color: #333333;
     text-align: center;
     display: inline-block;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
     margin: 10px 0px;
+    text-align: center;
+    transition: 0.2s;
   }
   
   nav img {
@@ -56,7 +49,7 @@ header {
   }
   nav a:hover {
     text-transform: uppercase;
-
+    transition: 0.2s;
   }
 
   .line {
@@ -173,6 +166,7 @@ header {
     padding: 30px 50px;
     background-color: #307166;
     color: whitesmoke;
+    z-index: 90;
   }
   
   
@@ -187,6 +181,15 @@ header {
     top: 50px;
   }
 
+  .thankyou {
+    background-color: #88c6c0;
+    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
   .question{
     position: relative;
     top: 50px;
