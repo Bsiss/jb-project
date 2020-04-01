@@ -209,6 +209,41 @@ header {
     background-color: #398D82;
   }
 
+  #question1,#question2,#question3,#question4 {
+    position: relative;
+   text-align: center;
+   display:grid;
+   margin: 0 auto;
+   vertical-align:middle;
+  }
+
+  #question2,#question3,#question4{
+   display:none;
+  }
+
+  .answer1 {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #b89c60;
+    padding: 30px 50px;
+    background-color: #307166;
+    color: whitesmoke
+  }
+  .answer2 {
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid #b89c60;
+    padding: 30px 50px;
+    background-color: #307166;
+    color: whitesmoke
+  }
+  .answer1:hover {
+    background-color: #398D82;
+  }
+
+  .answer2:hover {
+    background-color: #398D82;
+  }
 
 
   
