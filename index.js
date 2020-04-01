@@ -23,9 +23,21 @@ function scrollFunction() {
     }
 }
 
-//Thank you message button at end of quiz & article, reveals thank you message to reader.
+//Thank you message button at end of quiz & article, reveals thank you message to reader. (scroll animation)
 function revealMessage() {
     document.getElementById("hiddenMessage").style.display = 'block';
 }
 
+// working True or false + window changing game on bottom of page
+
+document.getElementById("true1").onclick = function(event){openclose(1);};
+document.getElementById("true2").onclick = function(event){openclose(2);};
+document.getElementById("true3").onclick = function(event){openclose(3);};
+
+function openclose (true1) {
+    
+    let true1next = true1+1;
+    document.getElementById("question"+true1).style.display = "none";
+    document.getElementById("question"+true1next).style.display = "grid";
+}
 
