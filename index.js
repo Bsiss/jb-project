@@ -1,5 +1,6 @@
-topButton = document.getElementById("top")
-
+//shows date at top of article (how new or old article is)
+var day = new Date();
+document.getElementById("date").innerHTML = "published on" + day;
 
 document.querySelector('.tothetop').addEventListener('click', event => {
     window.scrollTo({left:0, top:0, behavior:"smooth"})
