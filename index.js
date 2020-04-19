@@ -45,3 +45,19 @@ function openclose (true1) {
     document.getElementById("question"+true1next).style.display = "grid";
 }
 
+// a read more button, to reduce text on page.
+function textAppear() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = 
+    }
+}
+
