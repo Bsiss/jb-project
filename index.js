@@ -45,7 +45,7 @@ function openclose (true1) {
     document.getElementById("question"+true1next).style.display = "grid";
 }
 
-// a read more button, to reduce text on page.
+// a read more button, to reduce text and clean up page.
 function textAppear() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -57,7 +57,8 @@ function textAppear() {
         moreText.style.display = "none";
     } else {
         dots.style.display = "none";
-        btnText.innerHTML = 
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
     }
 }
 
