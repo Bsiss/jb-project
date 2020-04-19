@@ -61,4 +61,3 @@ function textAppear() {
         moreText.style.display = "inline";
     }
 }
-

@@ -20,6 +20,7 @@ header {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     position: fixed;
+    text-transform: uppercase;
   }
 
   nav {
@@ -335,6 +336,8 @@ header {
 margin: left;
   }
 
-
-  
-
+  .person {
+    float: right;
+    margin-right: 160px;
+    
+  }
