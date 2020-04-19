@@ -1,4 +1,3 @@
- 
 .tothetop {
   position: fixed;
   right: 1em;
@@ -100,6 +99,14 @@ header {
   p {
       font-family: 'Montserrat', sans-serif;
       color: whitesmoke;
+      font-size: 1.5rem;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .highlight {
+    font-weight: bolder;
+    color: #333333;
+    font-size: 1.6rem;
   }
 
   .industry li {
@@ -111,16 +118,27 @@ header {
       text-align: left;
   }
 
+  .header {
+    text-align: center;
+  }
   .whySection {
     background-color: #307166;
     box-sizing: border-box;
     padding: 10px;
-    text-align: center;
     width: 100%;
     position: relative;
     top: 50px;
     display: block;
+    line-height: 1.4;
   }
+  .first-letter {
+    float: left;
+    padding-right: 0.4rem;
+    font-size: 2.44rem;
+    color: #b89c60;
+    line-height: .87;
+  }
+
   .subtitle {
     text-align: left;
     font-weight: lighter;
@@ -139,10 +157,13 @@ header {
     background-color: #358176;
     box-sizing: border-box;
     padding: 40px;
-    text-align: center;
     width: 100%;
     position: relative;
     top: 50px;
+    line-height: 1.4;
+  }
+  .approachSection .header{
+    text-align: center;
   }
   .approachSection .approachCol{
     text-align: center;
@@ -159,20 +180,48 @@ header {
     background-color: #398D82;
     box-sizing: border-box;
     padding: 40px;
-    text-align: center;
     width: 100%;
     position: relative;
     top: 50px;
+    line-height: 1.4;
   }
 
+  .Section .header{
+    text-align: center;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .colContainer {
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+    
+
+  } 
+
   .link {
-    margin: 20px;
-    display: inline-block;
+  
+    display: block;
     border: 1px solid #b89c60;
     padding: 30px 50px;
     background-color: #307166;
     color: whitesmoke;
     z-index: 90;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: azure;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
   }
   
   
@@ -249,6 +298,10 @@ header {
 
   .answer2:hover {
     background-color: #398D82;
+  }
+
+  #more {
+    display: none;
   }
 
 
