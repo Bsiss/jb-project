@@ -11,6 +11,7 @@
 body {
     background-color: whitesmoke;
     margin: 0px;
+    
 }
 
 header {
@@ -72,7 +73,8 @@ header {
   }
 
   .toronto {
-    margin-left: 54px;
+    width: 100%;
+    height: auto;
   }
   
   h1 {
@@ -118,6 +120,7 @@ header {
       height: none;
       margin-top: 10px;
       text-align: left;
+      font-size: 1.3rem;
   }
 
   .header {
@@ -227,12 +230,13 @@ header {
   }
   .link:hover {
     background-color: #398D82;
+    padding: 31px 51px;
   }
   .link2 {
   
     display: block;
     border: 1px solid #b89c60;
-    padding: 30px 40px;
+    padding: 10px 20px;
     background-color: #307166;
     color: whitesmoke;
     z-index: 90;
@@ -248,6 +252,7 @@ header {
   }
   .link2:hover {
     background-color: #398D82;
+    padding: 11px 21px;
   }
   
   
@@ -289,6 +294,7 @@ header {
 
   .answer:hover {
     background-color: #398D82;
+    padding: 31px 51px;
   }
 
   #question1,#question2,#question3,#question4 {
@@ -334,10 +340,52 @@ header {
 
   #more .link {
 margin: left;
+text-align: center;
   }
 
   .person {
     float: right;
     margin-right: 160px;
+    
+  }
+
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: lightblue;
+    }
+    p {
+      font-size: 12px;
+    }
+    .highlight {
+      font-weight: bolder;
+      color: white;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .link2 {
+      display: block;
+      border: 1px solid #b89c60;
+      padding: 10px 20px;
+      background-color: #307166;
+      color: whitesmoke;
+      z-index: 90;
+      margin-left: auto;
+      margin-right: 90%;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: azure;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+    }
+    .industry li {
+      font-family: 'Montserrat', sans-serif;
+        color: whitesmoke;
+        width: 500px;
+        height: none;
+        margin-top: 10px;
+        text-align: left;
+        font-size: 10px;
+    }
     
   }
